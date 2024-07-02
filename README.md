@@ -31,7 +31,7 @@ LIve link : https://food-sharing-bc5b4.web.app/
 
 * My website is designed to be fully responsive on mobile and tablet devices, ensuring that users can easily access and navigate the platform from their smartphones. This responsiveness enhances accessibility and user experience across various screen sizes.
 
-
+Run Locally : after clone Install dependencies: npm install Set up environment variables for Firebase configuration. Start the development server: npm start
 
 ## Technologies Used
 
