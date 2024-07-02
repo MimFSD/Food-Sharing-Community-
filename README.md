@@ -30,3 +30,29 @@ LIve link : https://food-sharing-bc5b4.web.app/
 * Explore all the foods you've requested from the 'Food Details' page. In the 'Requested Foods' section, you have the flexibility to manage your requests, including the option to delete any food requests you no longer need.
 
 * My website is designed to be fully responsive on mobile and tablet devices, ensuring that users can easily access and navigate the platform from their smartphones. This responsiveness enhances accessibility and user experience across various screen sizes.
+
+
+
+## Technologies Used
+
+- **Frontend:**
+  - HTML
+  - CSS
+  - [Tailwind CSS](https://tailwindcss.com/)
+  - React
+    - [React Router DOM](https://reactrouter.com/)
+    - [React Helmet](https://github.com/nfl/react-helmet)
+  - [Tanstack Query](https://react-query.tanstack.com/)
+
+- **Backend:**
+  - MongoDB
+  - Express.js
+  - Node.js
+
+- **Authentication and Authorization:**
+  - Firebase Authentication
+  - jwt
+  
+- **Build Tools:**
+  - [Vite](https://vitejs.dev/)
+
