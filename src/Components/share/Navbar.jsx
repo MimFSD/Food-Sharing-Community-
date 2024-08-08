@@ -2,8 +2,6 @@ import { Link, NavLink } from "react-router-dom";
 import useAuth from "../hooks/useAuth";
 
 
-
-
 const Navbar = () => {
     const { user, logout } = useAuth()
 
@@ -26,9 +24,6 @@ const Navbar = () => {
             .catch()
     }
 
-
-
-    
     return (
         <div className="bg-green-700">
             <div className="navbar max-w-7xl mx-auto  py-2">
