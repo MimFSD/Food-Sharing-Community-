@@ -45,8 +45,6 @@ const FoodRequest = () => {
             }
         });
     }
-
-
     return (
         <div>
             <Helmet>
@@ -56,10 +54,12 @@ const FoodRequest = () => {
                 <div>
                     <h2 className="text-4xl font-bold my-14 text-center">Manage your Requested Foods</h2>
                 </div>
+                
                 <div className="overflow-x-auto">
                     <table className="table table-zebra">
                         {/* head */}
                         <thead>
+
                             <tr>
                                 <th className='text-base text-gray-800'>Donor Name</th>
                                 <th className='text-base text-gray-800'>Food Name</th>
@@ -75,6 +75,8 @@ const FoodRequest = () => {
                             {/* rows */}
                             {
                                 myFood?.map(food => <tr key={food._id}>
+
+
 
                                     <td className=''>
                                         <p className='font-semibold'>{food.donorName}</p>
