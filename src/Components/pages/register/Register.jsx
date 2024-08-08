@@ -114,6 +114,8 @@ const Register = () => {
                             <p className='text-sm text-center mb-8'>Already have an account? Please <Link to='/login'><strong className='text-green-600'>Login</strong></Link></p>
                         </div>
 
+
+
                     </div>
                     <div className="w-1/2">
                         <Lottie animationData={LottieRegister}></Lottie>

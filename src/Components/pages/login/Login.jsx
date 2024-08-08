@@ -8,6 +8,8 @@ import { Helmet } from "react-helmet-async";
 import Lottie from "lottie-react";
 import LoginAnimation from '../../../assets/login.json'
 
+
+
 const Login = () => {
     const { login, googleSignIn } = useAuth()
     const location = useLocation();
@@ -30,6 +32,7 @@ const Login = () => {
                 toast.success('Logged in successful!', { id: toastLoadingId })
                 navigate(location?.state ? location.state : '/')
             })
+            
             .catch(error => {
                 console.log(error);
                 toast.error('You entered wrong email and password!')
