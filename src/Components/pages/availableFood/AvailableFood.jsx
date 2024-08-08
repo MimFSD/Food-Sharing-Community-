@@ -29,7 +29,13 @@ const AvailableFood = () => {
 
 
 
-
+    // const sortFoodByDate = (data) => {
+    //     return data?.sort((a, b) => {
+    //         const firstData = new Date(a.expDate)
+    //         const secondData = new Date(b.expDate)
+    //         return firstData - secondData
+    //     })
+    // }
 
     
     // const sortFoods = sortFoodByDate(foods)
