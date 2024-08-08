@@ -17,6 +17,8 @@ const ManageFood = () => {
             })
     }, [axiosSecure, user?.email])
 
+
+
     const handleDelete = (id) => {
         Swal.fire({
             title: "Are you sure?",
@@ -46,6 +48,8 @@ const ManageFood = () => {
         });
     }
 
+
+
     const data = React.useMemo(() => managedFood, [managedFood])
     const columns = React.useMemo(() => [
         {
@@ -73,6 +77,7 @@ const ManageFood = () => {
             ),
         }
     ], []);
+    
 
     const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } = useTable({ columns, data })
 

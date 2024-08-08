@@ -68,6 +68,8 @@ const AddFood = () => {
                                     <input type="text" value={user?.email} name='email' className="input input-bordered focus-within:outline-none" readOnly />
                                 </div>
                             </div>
+
+                            
                             <div className="form-control mb-3">
                                 <label className="label">
                                     <span className="label-text font-medium">Your Image</span>
@@ -100,8 +102,6 @@ const AddFood = () => {
                                     <input type="date" name='date' className="input input-bordered" required />
                                 </div>
                             </div>
-
-                            
                             <div className='flex md:flex-row flex-col gap-5'>
                                 <div className="form-control mb-3 md:w-1/2">
                                     <label className="label">

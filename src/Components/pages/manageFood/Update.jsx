@@ -6,6 +6,8 @@ import useAuth from "../../hooks/useAuth";
 import customize from '../../../assets/Update.json'
 import { Helmet } from "react-helmet-async";
 
+
+
 const Update = () => {
     const { user } = useAuth()
     const food = useLoaderData()
@@ -36,6 +38,7 @@ const Update = () => {
             })
 
     }
+
 
 
     return (
@@ -96,6 +99,8 @@ const Update = () => {
                                     <input type="date" name='date' defaultValue={food.expDate} className="input input-bordered" />
                                 </div>
                             </div>
+
+
                             <div className=' gap-5'>
                                 <div className="form-control mb-3">
                                     <label className="label">
@@ -103,12 +108,7 @@ const Update = () => {
                                     </label>
                                     <input type="text" defaultValue={food?.location} name='location' className="input input-bordered focus-within:outline-none" />
                                 </div>
-                                {/* <div className="form-control mb-3 md:w-1/2">
-                                    <label className="label">
-                                        <span className="label-text font-semibold">Status</span>
-                                    </label>
-                                    <input type="text" placeholder="Food status..." name='status' className="input input-bordered focus-within:outline-none" required />
-                                </div> */}
+                               
                             </div>
                             <div className="form-control mb-3 w-full">
                                 <label className="label">
