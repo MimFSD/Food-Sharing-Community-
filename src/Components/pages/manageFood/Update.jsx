@@ -56,9 +56,6 @@ const Update = () => {
                             <div className="flex gap-5 md:flex-row flex-col">
                                 <div className="form-control mb-3 md:w-1/2">
                                     <label className="label">
-
-
-                                        
                                         <span className="label-text font-semibold">Your Name</span>
                                     </label>
                                     <input type="text" value={user?.displayName} name='user_name' className="input input-bordered focus-within:outline-none" readOnly />
