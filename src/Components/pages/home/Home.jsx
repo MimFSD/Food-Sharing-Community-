@@ -48,6 +48,8 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+
+            
             <div className='max-w-7xl mx-auto my-28 lg:px-0 md:px-5 px-10'>
                 <div className='my-20'>
                     <h2 className='lg:text-5xl md:text-4xl text-3xl font-bold text-center'>Featured Foods</h2>
@@ -77,6 +79,9 @@ const Home = () => {
                                         <p className="flex items-center gap-2"> <IoLocationOutline className="text-xl"></IoLocationOutline> <span className="font-semibold">Location:</span> {food.location}</p>
                                         <p className="flex items-center gap-2"> <IoCalendarNumberOutline className="text-xl"></IoCalendarNumberOutline> <span className="font-semibold">Expire Date:</span> {food.expDate}</p>
                                     </div>
+
+
+                            
                                     <div className="card-actions justify-end">
                                         <Link to={`/details/${food._id}`}>
                                             <button className="btn bg-lime-500 hover:bg-lime-600 text-white px-10">Details</button>
