@@ -10,7 +10,7 @@ const AvailableFood = () => {
     const { isLoading } = useAuth()
     const [foods, setFoods] = useState()
     const [searchItems, setSearchItems] = useState('')
-
+    // const [filterByDate, setFilterByDate] = useState()
     const axiosSecure = useAxiosSecure()
 
 
@@ -29,8 +29,13 @@ const AvailableFood = () => {
 
 
 
-  
-
+    // const sortFoodByDate = (data) => {
+    //     return data?.sort((a, b) => {
+    //         const firstData = new Date(a.expDate)
+    //         const secondData = new Date(b.expDate)
+    //         return firstData - secondData
+    //     })
+    // }
 
     
     // const sortFoods = sortFoodByDate(foods)
