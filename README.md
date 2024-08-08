@@ -7,6 +7,7 @@ LIve link : https://food-sharing-bc5b4.web.app/
 ## Community Food Sharing
 
 # Features
+
 * On the homepage, I organized foods from the most to the least in the Featured Foods section, so users can easily see the meals with the maximum quantity available.
 
 * Allow users to sign up, create profiles, and manage their donation or request of food history.
@@ -35,6 +36,7 @@ LIve link : https://food-sharing-bc5b4.web.app/
 - after clone Install dependencies: npm install 
 - Set up environment variables for Firebase configuration.
 - Start the development server: npm run dev
+
 
 ## Technologies Used
 
