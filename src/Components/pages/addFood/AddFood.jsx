@@ -24,6 +24,8 @@ const AddFood = () => {
         const notes = form.get('note');
         const newFood = { userName, email, userImg, foodTitle, foodImg, quantity, expDate, location, status, notes }
 
+
+
         axiosSecure.post('/foods', newFood)
             .then(res => {
                 if (res.data.acknowledged === true) {
@@ -98,6 +100,8 @@ const AddFood = () => {
                                     <input type="date" name='date' className="input input-bordered" required />
                                 </div>
                             </div>
+
+                            
                             <div className='flex md:flex-row flex-col gap-5'>
                                 <div className="form-control mb-3 md:w-1/2">
                                     <label className="label">

@@ -13,6 +13,8 @@ const AvailableFood = () => {
     // const [filterByDate, setFilterByDate] = useState()
     const axiosSecure = useAxiosSecure()
 
+
+
     useEffect(() => {
         axiosSecure.get('/foods')
             .then(res => {
@@ -25,16 +27,10 @@ const AvailableFood = () => {
     }, [axiosSecure])
     const filteredFoodItems = searchItems ? foods.filter(food => food.foodTitle.toLowerCase().includes(searchItems.toLowerCase())) : foods;
 
+
+
     // const sortFoodByDate = (data) => {
-    //     return data?.sort((a, b) => {
-    //         const firstData = new Date(a.expDate)
-    //         const secondData = new Date(b.expDate)
-    //         return firstData - secondData
-    //     })
-    // }
-
-    // const sortFoods = sortFoodByDate(foods)
-
+    //
     if (isLoading) {
         return 'loading...'
     }
