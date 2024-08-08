@@ -1,6 +1,6 @@
 Community Food Sharing is your local hub for reducing food waste and helping those in need by connecting neighbors to share surplus food. Whether you have extra groceries, homegrown produce, or just want to help out, Community Food Sharing makes it easy to share and receive food within your community.
 
-LIve link : https://food-sharing-bc5b4.web.app/
+LIve link : [Community Food Sharing](https://food-sharing-bc5b4.web.app/)
 
  Community Food Sharing and Surplus Reduction Platform
 
