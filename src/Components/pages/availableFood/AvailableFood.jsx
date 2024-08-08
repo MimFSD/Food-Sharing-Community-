@@ -71,6 +71,8 @@ const AvailableFood = () => {
                                 <div className="flex items-center justify-center p-8">
                                     <img src={food?.foodImg} alt={food?.foodTitle} className="w-2/3" />
                                 </div>
+
+                                
                                 <div className="card-body">
                                     <h2 className="card-title">
                                         {food?.foodTitle}

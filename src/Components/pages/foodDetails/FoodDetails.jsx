@@ -165,9 +165,6 @@ const FoodDetails = () => {
                                                     </div>
                                                 </div>
 
-
-
-
                                                 <div className='flex md:flex-row flex-col gap-5'>
                                                     <div className="form-control mb-3 md:w-1/2">
                                                         <label className="label">
